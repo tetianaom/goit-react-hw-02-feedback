@@ -49,7 +49,7 @@ export class App extends Component {
             />
           </Section>
         ) : (
-          <Notification />
+          <Notification message={'There is no feedback'} />
         )}
       </Container>
     );
